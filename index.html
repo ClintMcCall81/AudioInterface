@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Auido Interface</title>
+        <meta name="description" content="Audio Interface>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://kit.fontawesome.com/dffce36e0a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <h1 id="top-header">Music Player</h1>
+
+        <!-- Audio PLayer -->
+        <div class="wrapper">
+            <div class="musicPlayer">
+                <div class="nav">
+                    <ul>
+                        <li><i class="fas fa-bars"></i></li>
+                        <li><i class="fas fa-heart"></i></li>
+                    </ul>
+                </div>
+                <div id="img-spin">
+                <div id="img"></div>
+                </div>
+                <div class="details">
+                    <h2 id="songName">songName?</h2>
+                    <h3 id=songAuthor>songAuthor?</h3>
+                    <div id="seekbar">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="audioControls">
+                <ul>
+                    <li><i id="prev-btn" class="fas fa-backward fa-2x"></i></li>
+                    <li><i id="play-btn" class="fas fa-play fa-2x"></i></li>
+                    <li><i id="next-btn" class="fas fa-forward fa-2x"></i></li>
+                </ul>
+            </div>
+            
+            <div class="volumeControls">
+                <ul>
+                    <li><i id="volUp" class="fas fa-plus fa-2x"></i></li>
+                    <li><i id="volDown" class="fas fa-minus fa-2x"></i></li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- WRAPPER END -->
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
