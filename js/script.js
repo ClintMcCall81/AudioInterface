@@ -24,21 +24,21 @@ let playlist = [
         src: 'audio/Song-01.mp3', 
         name: 'Bury the Light', 
         author: "DMC5", 
-        img: '/images/Bury_the_Light_cover.jpg'
+        img: './images/Bury_the_Light_cover.jpg'
     },
     {
         // Index #1
         src: 'audio/Song-02.mp3',
         name: 'Faded',
         author: 'Lowly, Bafu',
-        img: '/images/wp1979862.jpg'
+        img: './images/wp1979862.jpg'
     },
     {
         // Index #2
         src: 'audio/Song-03.mp3', 
         name: 'Same (Magic Free Release)', 
         author: "TOMLINE & itsdelr", 
-        img: '/images/Song-03.jpg'
+        img: './images/Song-03.jpg'
     }
 ]
 
