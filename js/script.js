@@ -101,12 +101,22 @@ backBtn.addEventListener("click", prevSong);
 // Volume Up 
 let songVolumeUp = function() {
     audioVol = audio.volume += 0.1;
+    
+    if (audioVol >= .9) {
+        alert("Volume is at 100%");
+    }
+     
 }
 volUp.addEventListener('click', songVolumeUp);
 
 // VolumeDown
 let songVolumeDown = function() {
-    audio.volume -= 0.1;
+    audioVol = audio.volume -= 0.1;
+        
+    if (audioVol <= .1) {
+        alert("Volume is at 0%");
+    }
+     
 }
 volDown.addEventListener('click', songVolumeDown);
 
