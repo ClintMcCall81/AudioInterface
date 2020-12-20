@@ -248,3 +248,8 @@
         margin-left: 150px
     }
 }
+@media (max-width: 1500px) {
+    .fa-heart {
+        margin-left: 450px;
+    }
+}
