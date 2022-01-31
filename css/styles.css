@@ -243,3 +243,22 @@
     transition: ease-in-out 0.3s;
 }
 
+@media (min-width: 412px) {
+
+   /* Responsive Icon Adjustment */
+  .fa-heart {
+    color: rgb(255, 97, 97);
+    margin-left: 250px;
+   }
+
+    /* Responsive Image Adjustment */
+   #img {
+    height: 250px;
+    width:  250px;
+   }
+
+    .wrapper {
+     grid-template-columns: 2fr 2fr 2fr 2fr;
+    }   
+
+} /* END OF MEDIA QUERY */
