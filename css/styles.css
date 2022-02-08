@@ -261,4 +261,24 @@
      grid-template-columns: 2fr 2fr 2fr 2fr;
     }   
 
-} /* END OF MEDIA QUERY */
+} /* END OF MEDIA QUERY MIN*/
+
+@media (max-width: 1920px) {
+
+    /* Responsive Icon Adjustment */
+  .fa-heart {
+    color: rgb(255, 97, 97);
+    margin-left: 450px;
+   }
+
+    /* Responsive Image Adjustment */
+   #img {
+    height: 300px;
+    width:  300px;
+   }
+
+    .wrapper {
+     grid-template-columns: 2fr 1fr 1fr 2fr;
+    }  
+    
+}/* END OF MEDIA QUERY MAX */
